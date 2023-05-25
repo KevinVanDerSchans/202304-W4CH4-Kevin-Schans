@@ -1,11 +1,12 @@
 import { Info } from '../Info/Info'
-
+import { Keyboard } from '../Keyboard/Keyboard'
 
 export function App() {
 
   return (
     <>
-     <Info></Info>
+      <Info></Info>
+      <Keyboard></Keyboard>
     </>
   )
 }
