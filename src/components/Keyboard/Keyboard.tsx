@@ -1,6 +1,7 @@
 export function Keyboard() {
   return (
     <>
+    <div className="keyboard-container">
       <ol className="keyboard">
             <li><button className="key">1</button></li>
             <li><button className="key">2</button></li>
@@ -14,6 +15,7 @@ export function Keyboard() {
             <li><button className="key">0</button></li>
             <li><button className="key big">delete</button></li>
           </ol>
+    </div>
     </>
   )
 }

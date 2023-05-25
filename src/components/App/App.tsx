@@ -1,12 +1,19 @@
+import { Actions } from '../Actions/Actions'
 import { Info } from '../Info/Info'
 import { Keyboard } from '../Keyboard/Keyboard'
+import '../../index.css'
 
 export function App() {
 
   return (
     <>
+    <div className="container">
       <Info></Info>
-      <Keyboard></Keyboard>
+      <main className="phone">
+        <Keyboard></Keyboard>
+        <Actions></Actions>
+      </main>
+    </div>  
     </>
   )
 }
