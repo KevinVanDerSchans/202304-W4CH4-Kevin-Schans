@@ -1,10 +1,11 @@
-import './App.css'
+import { Info } from '../Info/Info'
 
-function App() {
+
+export function App() {
 
   return (
     <>
-     
+     <Info></Info>
     </>
   )
 }
